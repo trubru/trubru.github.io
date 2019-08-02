@@ -13,7 +13,7 @@ A couple of months ago I submitted a talk to Frontend NE. If accepted, it would 
 
 Shortly after, I got an email asking if I was free on 1st of August. I was surprised and excited. I said yes.
 
-Then the announcement email was sent and the [https://frontendne.co.uk/events/2019-08-01](website) updated. With my name and talk title on it. This was real. 
+Then the announcement email was sent and the [website](https://frontendne.co.uk/events/2019-08-01) updated. With my name and talk title on it. This was real. 
 
 I spent the next few weeks preparing with the writing of slides, rewriting, a rehearsal with colleagues at work and more rewriting. 
 Then it was zero hour. After much faffing with cables, my laptop was connected to the projector, and mic was on, and the audience was waiting with expectation.
