@@ -1,6 +1,7 @@
 # About
-I am Stuart Holmes; a full stack software devloper based in Northumberland and working for Newcastle Building Society.
-I work on .net with c# and specialise in front end development. I advocate web standards, accessibility and user experience within the development teams.
+I am Stuart Holmes; a full stack software developer based in Northumberland and working for Newcastle Building Society. 
+
+I specialise in front end development and develop with vanilla html, css and javascript in a asp.net c# tech stack. I advocate web standards, accessibility and user experience within the development teams.
 
 # Now
 Projects I am working on include
