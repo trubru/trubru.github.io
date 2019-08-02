@@ -20,7 +20,7 @@ Then it was zero hour. After much faffing with cables, my laptop was connected t
 
 Then I was on. I delivered my talk - I don’t remember much of it, but it seemed to go well. Then I was done, there was a round of applause, and I left the podium.
 
-Thank you for having me Frontend NE and thank you for the kind comments and encouragement from everyone.
+Thank you for having me at Frontend NE and for the kind comments and encouragement from everyone.
 
 Here are my [slides](https://github.com/trubru/trubru.github.io/blob/master/FrontEndNeAug2019.pdf).
 
