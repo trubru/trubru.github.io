@@ -22,7 +22,7 @@ Then I was on. I delivered my talk - I don’t remember much of it, but it seeme
 
 Thank you for having me Frontend NE and thank you for the kind comments and encouragement from everyone.
 
-Here are my [https://github.com/trubru/trubru.github.io/blob/master/FrontEndNeAug2019.pdf](slides).
+Here are my [slides](https://github.com/trubru/trubru.github.io/blob/master/FrontEndNeAug2019.pdf).
 
 # Contact
-Find me on twitter [https://twitter.com/trubru](@trubru)
+Find me on twitter [@trubru](https://twitter.com/trubru)
