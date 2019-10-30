@@ -5,6 +5,7 @@ I specialise in front end development and develop with vanilla html, css and jav
 
 # Now
 Projects I am working on include
+- [My Minimalist Journey](http://trubru.azurewebsites.net/)
 - [4th Morpeth Scout group website](http://www.4thmorpethscouts.org.uk)
 - [Pioneer Design System for Scout Groups](https://github.com/trubru/Pioneer)
 
