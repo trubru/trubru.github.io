@@ -142,6 +142,8 @@ input[type='checkbox']:disabled+label {
 </head>
 
 <body>
+	<h1>Input keyboard experiments</h1>
+	<h2>Using pattern attribute</h2>
 	<div class="question-wrapper">
 		<label for="accountnumber" class="question">
 			<span class="question-label">Account number:</span>
@@ -153,6 +155,19 @@ input[type='checkbox']:disabled+label {
 			<span class="question-label">Sort code:</span>
 		</label> 
 	   <input pattern="[0-9-]*" type="text" name="sortcode" id="sortcode">
+	</div>
+	<h2>Using inputmode attribute <code>inputmode="decimal"</code></h2>
+	<div class="question-wrapper">
+		<label for="accountnumber2" class="question">
+			<span class="question-label">Account number:</span>
+		</label> 
+	   <input type="text" name="accountnumber2" id="accountnumber2" inputmode="decimal">
+	</div>
+	<div  class="question-wrapper" class="question">
+		<label for="sortcode2">
+			<span class="question-label">Sort code:</span>
+		</label> 
+	   <input type="text" name="sortcode2" id="sortcode2" inputmode="decimal">
 	</div>
 </body>
 
