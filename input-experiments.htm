@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>input experiments</title>
+	<style>
+	
+/* Questions */
+.question-wrapper {
+    margin: 0.5em 0 0.75em 0;
+}
+
+.no-margin {
+    margin: 0em 0;
+}
+
+.question-label {
+    display: block;
+    margin: 0.25em 0;
+    font-weight: 500;
+}
+
+.question-hint {
+    display: block;
+    color: #505a5f;
+    margin: 6px 0;
+}
+
+.question-hint p {
+    margin: 0;
+}
+
+.question-wrapper .answer-prefix {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.question-wrapper input[type='text'],
+.question-wrapper input[type='email'],
+.question-wrapper input[type='tel'],
+.question-wrapper input[type='password'],
+.question-wrapper input[type='number'] {
+    font: inherit;
+    border: 2px solid var(--input-border-colour, #000);
+    padding: 3px 6px;
+}
+
+.question-wrapper select {
+    font: inherit;
+    border: 2px solid var(--input-border-colour, #000);
+    padding: 3px 6px;
+    max-width: 70%;
+}
+
+.question-wrapper textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 5em;
+    font: inherit;
+    border: 2px solid var(--input-border-colour, #000);
+    padding: 0.25em 0.5em;
+}
+
+.question-wrapper select:focus,
+.question-wrapper input[type='text']:focus,
+.question-wrapper input[type='email']:focus,
+.question-wrapper input[type='tel']:focus,
+.question-wrapper input[type='password']:focus,
+.question-wrapper input[type='number']:focus,
+.question-wrapper textarea:focus {
+    outline: 3px solid var(--input-focus-colour, #ffbf47);
+    outline-offset: 0;
+}
+
+fieldset {
+    border: 0px none;
+    margin: 0;
+    padding: 0;
+}
+
+.question-wrapper legend {
+    padding: 0;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    position: relative;
+    top: 2px;
+    accent-color: var(--primary-brand-colour);
+    width: 2.105rem;
+    height: 2.105rem;
+}
+
+input[type='radio']:disabled,
+input[type='checkbox']:disabled {
+    cursor: not-allowed;
+}
+
+input[type='radio']:disabled+label,
+input[type='checkbox']:disabled+label {
+    cursor: not-allowed;
+    color: #515151;
+}
+
+.check-box-question,
+.question-radio-button {
+    display: grid;
+    grid-template-columns: 2.5rem auto;
+    grid-gap: 0.5em;
+    padding: 0.25em 0;
+}
+
+.check-box-question label,
+.question-radio-button label {
+    align-self: center;
+}
+
+.checkbox-button label {
+    display: inline-block;
+    background-color: var(--primary-button-background-colour);
+    border: 1px solid var(--primary-button-background-colour);
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+.checkbox-button input:checked~label {
+    background-color: var(--primary-button-background-colour);
+}
+
+.checkbox-button input:hover~label {
+    background-color: var(--primary-button-background-colour);
+    cursor: pointer;
+}
+
+.checkbox-button input:focus~label {
+    outline: 3px solid transparent;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 2px var(--input-focus-colour);
+}
+	</style>
+</head>
+
+<body>
+	<div class="question-wrapper">
+		<label for="accountnumber" class="question">
+			<span class="question-label">Account number:</span>
+		</label> 
+	   <input pattern="[0-9]*" type="text" name="accountnumber" id="accountnumber">
+	</div>
+	<div  class="question-wrapper" class="question">
+		<label for="sortcode">
+			<span class="question-label">Sort code:</span>
+		</label> 
+	   <input pattern="[0-9-]*" type="text" name="sortcode" id="sortcode">
+	</div>
+</body>
+
+</html>
